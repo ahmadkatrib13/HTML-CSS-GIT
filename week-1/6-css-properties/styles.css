@@ -1,1 +1,27 @@
 /* Add your CSS code below */
+
+/* 1 */
+.message .link {
+  text-decoration: none;
+  font-weight: bold;
+  color: red;
+}
+/* 2 */
+.message .message__time {
+  font-size: 0.9rem;
+}
+/* 3 */
+.message.message--unread {
+  border-left: 3px solid blue;
+}
+
+/* 4 */
+/*we can't select the parent of message__time--old because there's no css parent selector.*/
+.message__time--old {
+  opacity: 0.4;
+}
+
+/* 5 */
+.message {
+  line-height: 250%;
+}
