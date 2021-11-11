@@ -38,6 +38,50 @@
           <h2 class="checkout__title">Checkout</h2>
           <form method="GET" id="checkout-form" class="checkout__form">
             <!-- Add the form fields here -->
+            <fieldset>
+              <legend>
+                Billing Address
+              </legend>
+              <p>
+                <label for="bill-address-one">Address Line 1</label>
+                <input type="text" name="bill-address-one" id="bill-address-one" />
+              </p>
+              <p>
+                <label for="bill-address-two">Address Line 2</label>
+                <input type="text" name="bill-address-two" id="bill-address-two" />
+              </p>
+
+              <p>
+                <label for="bill-postcode">Postcode</label>
+                <input type="text" name="bill-postcode" id="bill-postcode" />
+              </p>
+              <p>
+                <label for="bill-city">City</label>
+                <input type="text" name="bill-city" id="bill-city" />
+              </p>
+            </fieldset>
+            <fieldset>
+              <legend>
+                Delivery Address
+              </legend>
+              <p>
+                <label for="delivery-address-one">Address Line 1</label>
+                <input type="text" name="delivery-address-one" id="delivery-address-one" />
+              </p>
+              <p>
+                <label for="delivery-address-two">Address Line 2</label>
+                <input type="text" name="delivery-address-two" id="delivery-address-two" />
+              </p>
+
+              <p>
+                <label for="delivery-postcode">Postcode</label>
+                <input type="text" name="delivery-postcode" id="delivery-postcode" />
+              </p>
+              <p>
+                <label for="delivery-city">City</label>
+                <input type="text" name="delivery-city" id="delivery-city" />
+              </p>
+            </fieldset>
 
             <button type="submit">Complete Purchase</button>
           </form>
